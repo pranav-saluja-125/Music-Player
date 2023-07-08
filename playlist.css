@@ -1,0 +1,97 @@
+/* styling for header */
+.nav {
+    /* border: 2px solid red; */
+    position: relative;
+    margin: 0px;
+    padding: 0px;   
+}
+
+#nav-bar-first {
+    display: block;
+    color: aliceblue;
+    justify-content: center;
+    padding-left: 6px;
+    padding-right: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 545px;
+    margin-left: 86px;
+}
+/* styling for header ends  */
+
+/*styling for the div containing search bar   */
+    .right {
+    display: inline-block;
+    border-radius: 4px;
+    width: 9%;
+    position: absolute;
+    left: 76%;
+    bottom: 96px;
+    top:-15px;    
+}
+
+/* styling for logo image  */
+#img1 {
+    margin-bottom: 23px;
+    margin-top: -95px;
+    margin-left: -48px;
+    border-radius: 50%;
+}
+
+/* styling for search bar  */
+.search {
+    /* border: 2px solid white; */
+    color: aqua;
+    display: block;
+    /* float: left; */
+    padding-left: 189px;
+    justify-content: center;
+    padding-right: 56px;
+    margin-right: 45px;
+    margin-bottom: 66px;
+    margin-left: 352px;
+
+}
+/* styling for sd  */ 
+#sd {
+    margin-bottom: 90px;
+    border: 3px solid white;
+    color: white;
+    width: 229px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+    /* styling for bell icon  */
+#bell {
+    position: absolute;
+    left: 87%;
+    bottom: 97px;
+    filter: invert();
+    display: inline-block;
+}
+
+#bell:hover{
+    color: yellow;
+}
+/* styling for bell icon ends  */
+
+/* styling for dp image */ 
+#top-image {
+    position: absolute;
+    left: 89%;
+    bottom: 645px;
+}
+/* styling for artist image */
+#artistimage {height: 400px;
+    width: 400px;
+    opacity:0.9;}
+/* styling for play all button */
+#playall {position: absolute;
+    left: 540px;
+    top: 380px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(26, 26, 99),blueviolet,rgb(245, 0, 245));}
+
